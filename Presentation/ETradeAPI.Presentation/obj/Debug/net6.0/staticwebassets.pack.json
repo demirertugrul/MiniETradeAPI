@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\files\\mstfde.png",
+      "PackagePath": "staticwebassets\\files\\mstfde.png"
+    },
+    {
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\degiskenturlerc#.png"
+    },
+    {
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\mstfde.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\mstfde.png"
+    },
+    {
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\nvea (1).png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\nvea (1).png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ETradeAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ETradeAPI.API.props",
+      "PackagePath": "build\\ETradeAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ETradeAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\ETradeAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ETradeAPI.API.props",
+      "PackagePath": "buildTransitive\\ETradeAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
