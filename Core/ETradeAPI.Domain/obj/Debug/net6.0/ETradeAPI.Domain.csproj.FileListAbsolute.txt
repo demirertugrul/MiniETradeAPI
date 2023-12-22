@@ -58,3 +58,15 @@ D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\ETradeAPI\ETradeAPI\Core\ETradeAPI.
 D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\ETradeAPI\ETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\refint\ETradeAPI.Domain.dll
 D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\ETradeAPI\ETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.pdb
 D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\ETradeAPI\ETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ref\ETradeAPI.Domain.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\bin\Debug\net6.0\ETradeAPI.Domain.deps.json
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\bin\Debug\net6.0\ETradeAPI.Domain.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\bin\Debug\net6.0\ETradeAPI.Domain.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.csproj.AssemblyReference.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.AssemblyInfoInputs.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.AssemblyInfo.cs
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.csproj.CoreCompileInputs.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\refint\ETradeAPI.Domain.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ETradeAPI.Domain.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Core\ETradeAPI.Domain\obj\Debug\net6.0\ref\ETradeAPI.Domain.dll

@@ -6,21 +6,19 @@ using System.Linq.Expressions;
 
 namespace ETradeAPI.Persistence.Repositories
 {
-    public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity //BaseEntity yaptigimiz icin marker pattern'a uygun altyapi sergiledigim icin T türünde ki nesne baseentity'den geliyor class'tan degil. dolayısıyla cagirdigimiz context'teki degerlere ulasabılıyoruz.
+    public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity 
     {
         private readonly ETradeAPIDbContext _context;
 
-        public ReadRepository(ETradeAPIDbContext context) // DBContext'i veritabanı değerleri ile eleştirmek için burada ctor ile çağırıyoruz
+        public ReadRepository(ETradeAPIDbContext context) 
         {
             _context = context;
         }
 
-        public DbSet<T> Table => _context.Set<T>(); /* Burada RepositoryDesign ile kurdugumuz hiyerarşi ile gelen Context Nesnesi 
-        burada .Set<T>(); ile veritabanından çağrılıyor. Ve gelen T nesnesi ile methodlarımızla gerekli işlemler yapılıyor. */
-
+        public DbSet<T> Table => _context.Set<T>();
         public IQueryable<T> GetAll(bool tracking = true)
         {
-            var query = Table.AsQueryable(); // Tüm read işlemlerini IQueryable ile dönderiyoruz.
+            var query = Table.AsQueryable();
             if (!tracking)
                 query = query.AsNoTracking();
             return query;

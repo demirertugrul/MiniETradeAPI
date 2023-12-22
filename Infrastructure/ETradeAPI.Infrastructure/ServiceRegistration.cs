@@ -17,7 +17,6 @@ namespace ETradeAPI.Infrastructure
         {
             services.AddScoped<IStorage, T>();
         }
-        //Alttaki kullanım pek tercih edilmiyor bir üstteki daha ideal.
         public static void AddStorage(this IServiceCollection services, StorageType storageType)
         {
             switch (storageType)

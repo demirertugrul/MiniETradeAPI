@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UmtVtyiFM0/wD4Vavx1EL0ne5dgl8vhwkSm91UDLTUY=",
+  "Hash": "JmVpcnhWv3SLg387QBdZw7MFrg5P1x0A+pMUwyfBf/Y=",
   "Source": "ETradeAPI.API",
   "BasePath": "_content/ETradeAPI.API",
   "Mode": "Default",
@@ -10,34 +10,17 @@
     {
       "Name": "ETradeAPI.API\\wwwroot",
       "Source": "ETradeAPI.API",
-      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
+      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
       "BasePath": "_content/ETradeAPI.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\files\\mstfde.png",
+      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
       "SourceId": "ETradeAPI.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
-      "BasePath": "_content/ETradeAPI.API",
-      "RelativePath": "files/mstfde.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\mstfde.png"
-    },
-    {
-      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
-      "SourceId": "ETradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
+      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
       "BasePath": "_content/ETradeAPI.API",
       "RelativePath": "resource/product-images/degiskenturlerc#.png",
       "AssetKind": "All",
@@ -49,40 +32,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\product-images\\degiskenturlerc#.png"
-    },
-    {
-      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\mstfde.png",
-      "SourceId": "ETradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
-      "BasePath": "_content/ETradeAPI.API",
-      "RelativePath": "resource/product-images/mstfde.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\mstfde.png"
-    },
-    {
-      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\nvea (1).png",
-      "SourceId": "ETradeAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
-      "BasePath": "_content/ETradeAPI.API",
-      "RelativePath": "resource/product-images/nvea (1).png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\nvea (1).png"
     }
   ]
 }

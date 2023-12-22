@@ -30,7 +30,7 @@ namespace ETradeAPI.Persistence.Repositories
             return true;
         }
 
-        public bool Remove(T model) // // ********BURADAN
+        public bool Remove(T model) 
         {
             EntityEntry<T> entityEntry = Table.Remove(model);
             return entityEntry.State == EntityState.Deleted;
@@ -44,7 +44,7 @@ namespace ETradeAPI.Persistence.Repositories
         public async Task<bool> RemoveAsync(string id)
         {
             var model = await Table.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
-            return Remove(model); // ******BUNU ŞURADAN ÇAĞIRDIK
+            return Remove(model);
         }
 
         public bool Update(T model)

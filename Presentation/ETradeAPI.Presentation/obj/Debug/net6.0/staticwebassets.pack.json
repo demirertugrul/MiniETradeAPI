@@ -1,20 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\files\\mstfde.png",
-      "PackagePath": "staticwebassets\\files\\mstfde.png"
-    },
-    {
-      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
       "PackagePath": "staticwebassets\\resource\\product-images\\degiskenturlerc#.png"
-    },
-    {
-      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\mstfde.png",
-      "PackagePath": "staticwebassets\\resource\\product-images\\mstfde.png"
-    },
-    {
-      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\ETradeAPI\\ETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\nvea (1).png",
-      "PackagePath": "staticwebassets\\resource\\product-images\\nvea (1).png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ETradeAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",

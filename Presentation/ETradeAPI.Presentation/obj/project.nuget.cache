@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6StKxgWive0PQycI2FOqKIo+Y3FNi8t5pEKlUfK8fBD6gB9y5s4as06W2Xe9CBNxF3koyluk5XMzeftuTE8Fxg==",
+  "dgSpecHash": "zPFnYFHZp4K0NaLDEYnTfLJliUe9KqaL4lSU+aE7K7mngqzk7nZZ2jZkWUnYvFNgwLRzask6CBuVenGJGUxn0Q==",
   "success": true,
   "projectFilePath": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\ETradeAPI.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,9 @@
     "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

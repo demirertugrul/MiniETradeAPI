@@ -26,35 +26,22 @@ namespace ETradeAPI.Infrastructure.Services.Storage.Local
 
         public async Task<List<(string fileName, string pathOrContainerName)>> UploadAsync(string path, IFormFileCollection files)
         {
-            string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, path); /*webrootpath wwwroot 
-                                                                                      klasorunun pathi*/
+            string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, path); 
             if (!Directory.Exists(uploadPath))
                 Directory.CreateDirectory(uploadPath);
 
-            List<(string fileName, string path)> datas = new(); /* database'e isleem sokmak icin tuple ile() 
-                                                                 dosyanin adini ve dosya yolunu aldik*/
-            //List<bool> results = new(); // dosya wwwroot'a yuklendi mi ufacik bi control
-            foreach (IFormFile file in files) /* Request.Form.Files client'te post ile gonderilen formData'yi
-            yakaliyor. */
+            List<(string fileName, string path)> datas = new(); 
+            foreach (IFormFile file in files) 
             {
-                //dosyanin adi ayni ise onu isleme sokup numaralandirdik.
-                //string fileNewName = await FileRenameOperation.FileRenameAsync(uploadPath, file.FileName); bu base hale gelecek.
                 string fileNewName = await FileRenameAsync(path, file.Name, HasFile);
 
                 await CopyFileAsync($"{uploadPath}\\{fileNewName}", file);
                 datas.Add((fileNewName, $"{path}\\{fileNewName}"));
             }
-
-            //if (results.TrueForAll(r => r.Equals(true)))
-            //    return datas;
-
             return datas;
-
-            //todo Eğer ki yukarıdaki if geçerli değilse burada dosyaların sunucuda yüklenirken hata alındığına dair uyarıcı bir exception oluşturulup fırlatılması gerekyior!
         }
 
-        async private Task<bool> CopyFileAsync(string path, IFormFile file) /* client'ten upload edilen dosya 
-                                                                            wwwroot'a copy ediliyor.*/
+        async private Task<bool> CopyFileAsync(string path, IFormFile file) 
         {
             try
             {
@@ -66,7 +53,6 @@ namespace ETradeAPI.Infrastructure.Services.Storage.Local
             }
             catch (Exception ex)
             {
-                //todo log!
                 throw ex;
             }
         }

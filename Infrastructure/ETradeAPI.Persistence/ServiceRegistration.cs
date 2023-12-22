@@ -2,7 +2,7 @@
 using ETradeAPI.Domain.Identity;
 using ETradeAPI.Persistence.Contexts;
 using ETradeAPI.Persistence.Repositories;
-using Microsoft.EntityFrameworkCore; // NuGet'ten yüklediğmiz kütüphaneyi kullanabilmek için bunu eklememiz gerekiyor
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ETradeAPI.Persistence
@@ -11,8 +11,7 @@ namespace ETradeAPI.Persistence
     {
         public static void AddPersistenceService(this IServiceCollection services)
         {
-            services.AddDbContext<ETradeAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString)); /* UseNpgsql ise
-            hangi kütüphaneyi yüklememiz gerekiyorsa o kütüphaneyi projeye dahil etmemiz gerekiyor. */
+            services.AddDbContext<ETradeAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
             services.AddIdentity<AppUser, AppRole>(options =>
             {
                 options.Password.RequiredLength = 3;
@@ -22,7 +21,6 @@ namespace ETradeAPI.Persistence
                 options.Password.RequireUppercase = false;
             }).AddEntityFrameworkStores<ETradeAPIDbContext>();
 
-            // AddScoped -> Olusturulup dispose ediliyor.
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IProductReadRepository, ProductReadRepository>();

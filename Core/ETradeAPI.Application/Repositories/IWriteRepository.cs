@@ -10,6 +10,6 @@ namespace ETradeAPI.Application.Repositories
         bool RemoveRange(List<T> datas);
         Task<bool> RemoveAsync(string id);
         bool Update(T model);
-        Task<int> SaveAsync(); // YAPILAN İŞLEMLERİN UYGULANMASI İÇİN SAVEASYNC() METHODUNU KENDİMİZ İÇİN YAZIYORUZ
+        Task<int> SaveAsync();
     }
 }

@@ -8,9 +8,9 @@ namespace ETradeAPI.Persistence
         {
             get
             {
-                ConfigurationManager configurationManager = new(); // .NET 6 ile gelen bu sınıf json okumamız ıcın
-                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/ETradeAPI.Presentation")); // json farklı dosya yollarındaysa belirtmemiz gerekiyor.
-                configurationManager.AddJsonFile("appsettings.json"); // ve jsonu ekliyoruz.
+                ConfigurationManager configurationManager = new();
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/ETradeAPI.Presentation"));
+                configurationManager.AddJsonFile("appsettings.json");
 
                 return configurationManager.GetConnectionString("PostgreSQL");
             }

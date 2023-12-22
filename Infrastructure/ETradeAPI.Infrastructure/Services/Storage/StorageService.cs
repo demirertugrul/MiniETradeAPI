@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace ETradeAPI.Infrastructure.Services.Storage
 {
-    //StorageService Client'in yani Developer'in kullanacagi service
-    public class StorageService : IStorageService // bu aws azure local storage'lere depdency inversion gorevi goruyor.
+    public class StorageService : IStorageService 
     {
         readonly IStorage _storage;
 

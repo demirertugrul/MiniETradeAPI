@@ -8,11 +8,5 @@ namespace ETradeAPI.Application.Abstractions.Storage
         Task DeleteAsync(string pathOrContainerName, string fileName);
         List<string> GetFiles(string pathOrContainerName);
         bool HasFile(string pathOrContainerName, string fileName);
-
-        /*
-         implemente edecek olan method imzasi ayni oldugu surece parametrelerin isimlerini istege bagli verilebiliyor.
-         */
-
-
     }
 }
