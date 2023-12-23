@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\files\\compilervsinterpreter.png",
+      "PackagePath": "staticwebassets\\files\\compilervsinterpreter.png"
+    },
+    {
       "Id": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
       "PackagePath": "staticwebassets\\resource\\product-images\\degiskenturlerc#.png"
     },

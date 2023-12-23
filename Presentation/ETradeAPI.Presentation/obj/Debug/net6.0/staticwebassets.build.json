@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JmVpcnhWv3SLg387QBdZw7MFrg5P1x0A+pMUwyfBf/Y=",
+  "Hash": "nhtphmIe9HO9mPQ7lb7h24l1m5UhKXWoTsy8iowJtaA=",
   "Source": "ETradeAPI.API",
   "BasePath": "_content/ETradeAPI.API",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\files\\compilervsinterpreter.png",
+      "SourceId": "ETradeAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\",
+      "BasePath": "_content/ETradeAPI.API",
+      "RelativePath": "files/compilervsinterpreter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\compilervsinterpreter.png"
+    },
     {
       "Identity": "D:\\Dev_Project\\PROJECTS_DOTNET\\ETradeMiniApp\\MiniETradeAPI\\Presentation\\ETradeAPI.Presentation\\wwwroot\\resource\\product-images\\degiskenturlerc#.png",
       "SourceId": "ETradeAPI.API",
