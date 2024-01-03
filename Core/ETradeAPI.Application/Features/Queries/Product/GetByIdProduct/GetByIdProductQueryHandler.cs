@@ -2,7 +2,7 @@
 using MediatR;
 using P = ETradeAPI.Domain.Entities;
 
-namespace ETicaretAPI.Application.Features.Queries.Product.GetByIdProduct
+namespace ETradeAPI.Application.Features.Queries.Product.GetByIdProduct
 {
     internal class GetByIdProductQueryHandler : IRequestHandler<GetByIdProductQueryRequest, GetByIdProductQueryResponse>
     {

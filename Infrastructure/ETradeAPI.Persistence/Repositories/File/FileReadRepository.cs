@@ -1,9 +1,14 @@
 ﻿using ETradeAPI.Application.Repositories;
 using ETradeAPI.Persistence.Contexts;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETradeAPI.Persistence.Repositories
 {
-    public class FileReadRepository : ReadRepository<Domain.Entities.File>, IFileReadRepository
+    public class FileReadRepository : ReadRepository<ETradeAPI.Domain.Entities.File>, IFileReadRepository
     {
         public FileReadRepository(ETradeAPIDbContext context) : base(context)
         {

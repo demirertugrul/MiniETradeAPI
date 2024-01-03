@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETradeAPI.Application.ViewModels
+namespace ETradeAPI.Application.ViewModels.Products
 {
     public class VM_Create_Product
     {
         public string Name { get; set; }
-        public float Price { get; set; }
         public int Stock { get; set; }
+        public float Price { get; set; }
     }
 }

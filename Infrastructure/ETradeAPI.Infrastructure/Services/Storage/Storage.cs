@@ -19,7 +19,7 @@ namespace ETradeAPI.Infrastructure.Services.Storage
                 if (first)
                 {
                     string oldName = Path.GetFileNameWithoutExtension(fileName);
-                    newFileName = $"{CharacterOperation.CharacterRegulatory(oldName)}{extension}";
+                    newFileName = $"{NameOperation.CharacterRegulatory(oldName)}{extension}";
                 }
                 else
                 {

@@ -1,0 +1,17 @@
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.csproj.AssemblyReference.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.AssemblyInfoInputs.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.AssemblyInfo.cs
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.csproj.CoreCompileInputs.cache
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.SignalR.deps.json
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.SignalR.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.SignalR.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.Application.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.Domain.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.Application.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\bin\Debug\net6.0\ETradeAPI.Domain.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.csproj.CopyComplete
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\refint\ETradeAPI.SignalR.dll
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ETradeAPI.SignalR.pdb
+D:\Dev_Project\PROJECTS_DOTNET\ETradeMiniApp\MiniETradeAPI\Infrastructure\ETradeAPI.SignalR\obj\Debug\net6.0\ref\ETradeAPI.SignalR.dll

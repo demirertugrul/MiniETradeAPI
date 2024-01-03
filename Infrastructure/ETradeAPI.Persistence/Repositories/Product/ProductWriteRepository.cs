@@ -14,5 +14,5 @@ namespace ETradeAPI.Persistence.Repositories
         public ProductWriteRepository(ETradeAPIDbContext context) : base(context)
         {
         }
-    }   
+    }
 }

@@ -1,5 +1,4 @@
-﻿using ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages;
-using ETradeAPI.Application.Repositories;
+﻿using ETradeAPI.Application.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -26,9 +25,9 @@ namespace ETradeAPI.Application.Features.Queries.ProductImageFile.GetProductImag
         {
             Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles)
                    .FirstOrDefaultAsync(p => p.Id == Guid.Parse(request.Id));
-            return product.ProductImageFiles.Select(p => new GetProductImagesQueryResponse
+            return product?.ProductImageFiles.Select(p => new GetProductImagesQueryResponse
             {
-                Path = $"{configuration["BaseStorageURL"]}/{p.Path}",
+                Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",
                 FileName = p.FileName,
                 Id = p.Id
             }).ToList();

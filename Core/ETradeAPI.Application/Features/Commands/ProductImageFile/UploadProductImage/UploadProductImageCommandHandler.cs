@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.UploadProductImage
+namespace ETradeAPI.Application.Features.Commands.ProductImageFile.UploadProductImage
 {
     public class UploadProductImageCommandHandler : IRequestHandler<UploadProductImageCommandRequest, UploadProductImageCommandResponse>
     {
@@ -27,15 +27,15 @@ namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.UploadProdu
             List<(string fileName, string pathOrContainerName)> result = await _storageService.UploadAsync("photo-images", request.Files);
 
 
-            ETradeAPI.Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
+            Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
 
 
-            await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ETradeAPI.Domain.Entities.ProductImageFile
+            await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new Domain.Entities.ProductImageFile
             {
                 FileName = r.fileName,
                 Path = r.pathOrContainerName,
                 Storage = _storageService.StorageName,
-                Products = new List<ETradeAPI.Domain.Entities.Product>() { product }
+                Products = new List<Domain.Entities.Product>() { product }
             }).ToList());
 
             await _productImageFileWriteRepository.SaveAsync();

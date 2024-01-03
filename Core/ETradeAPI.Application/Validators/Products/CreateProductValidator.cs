@@ -1,4 +1,4 @@
-﻿using ETradeAPI.Application.ViewModels;
+﻿using ETradeAPI.Application.ViewModels.Products;
 using FluentValidation;
 
 namespace ETradeAPI.Application.Validators.Products
@@ -11,33 +11,23 @@ namespace ETradeAPI.Application.Validators.Products
                 .NotEmpty()
                 .NotNull()
                     .WithMessage("Lütfen ürün adını boş geçmeyiniz.")
-                .MaximumLength(100)
-                .MinimumLength(3)
-                    .WithMessage("Lütfen ürün adını 3 ila 100 karakter arasında giriniz.");
+                .MaximumLength(150)
+                .MinimumLength(5)
+                    .WithMessage("Lütfen ürün adını 5 ile 150 karakter arasında giriniz.");
 
             RuleFor(p => p.Stock)
                 .NotEmpty()
                 .NotNull()
                     .WithMessage("Lütfen stok bilgisini boş geçmeyiniz.")
-                .Must(NotNegative)
-                    //.Must(s => s>=0)
-                    .WithMessage("Stock bilgisi negatif olamaz.");
+                .Must(s => s >= 0)
+                    .WithMessage("Stok bilgisi negatif olamaz!");
 
             RuleFor(p => p.Price)
                 .NotEmpty()
                 .NotNull()
                     .WithMessage("Lütfen fiyat bilgisini boş geçmeyiniz.")
-                .Must(p => p >= 0)
-                    .WithMessage("Fiyat bilgisi negatif olamaz.");
-
-
-
-
-        }
-
-        private bool NotNegative(int s)
-        {
-            return s >= 0; //.Must(s => s>=0)
+                .Must(s => s >= 0)
+                    .WithMessage("Fiyat bilgisi negatif olamaz!");
         }
     }
 }

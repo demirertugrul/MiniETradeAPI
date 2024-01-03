@@ -1,4 +1,9 @@
 ﻿using ETradeAPI.Domain.Entities.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETradeAPI.Application.Repositories
 {
@@ -10,6 +15,7 @@ namespace ETradeAPI.Application.Repositories
         bool RemoveRange(List<T> datas);
         Task<bool> RemoveAsync(string id);
         bool Update(T model);
+
         Task<int> SaveAsync();
     }
 }
